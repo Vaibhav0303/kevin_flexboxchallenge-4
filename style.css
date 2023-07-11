@@ -1,0 +1,76 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+}
+img, picture{
+    max-width: 100%;
+}
+p{
+    margin-top: 0;
+}
+.pink_background{
+    background-color: #F3EED9;
+    min-height: 660px;
+    display: flex;
+    align-items: center;
+}
+.container{
+    width: 80%;
+    max-width: 1128px;
+    margin: 0 auto;
+}
+
+.pink_text{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.pink_text h1{
+    color: #824936;
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    margin: 0;
+    line-height: 1em;
+
+}
+.pink_text p{
+    text-transform: uppercase;
+    letter-spacing: 0.8rem;
+    font-weight: 300;
+    font-size: 18px;
+}
+.quality{
+    padding: 3em 0;
+}
+.quality h4{
+    color: #824936;
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    text-align: center;
+
+}
+.row
+{
+    display: flex;
+    gap: 4em;
+    line-height: 1.5em;
+}
+.black-bcg{
+    background: #222C2A;
+    color: white;
+    padding : 3em 0;
+}
+.black-bcg h4{
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+
+}
+.col1, .col2{
+    width: 100%;
+}
